@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Day</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Valentine's Day Celebration!</h1>
+    </header>
+    
+    <section id="interactive-questions">
+        <h2>Answer our questions!</h2>
+        <form>
+            <label for="question1">What's your love language?</label>
+            <input type="text" id="question1" name="question1" required>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section id="love-meter">
+        <h2>Your Love Meter</h2>
+        <div id="meter"></div>
+    </section>
+
+    <section id="animations">
+        <h2>Enjoy our love animations!</h2>
+        <div id="animation-area"></div>
+    </section>
+
+    <section id="music-controls">
+        <h2>Love Songs Control</h2>
+        <audio controls>
+            <source src="love_songs.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Valentine's Day</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
