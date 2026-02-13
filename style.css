@@ -1,0 +1,34 @@
+.gradient-background {
+  background: linear-gradient(45deg, #ff6b6b, #ffcc6b);
+  height: 100vh;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  animation: fade 2s;
+}
+
+@media (max-width: 600px) {
+  .button {
+    width: 100%;
+    padding: 10px;
+  }
+}
